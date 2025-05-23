@@ -71,6 +71,7 @@
         networkmanagerapplet
         nh
         ntfs3g
+        nwg-look
         pciutils
         pfetch
         pkgs.sddm-astronaut
