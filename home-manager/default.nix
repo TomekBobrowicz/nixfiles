@@ -66,6 +66,13 @@
       enable = true;
     };
   };
+  # Create XDG Dirs
+    xdg = {
+      userDirs = {
+        enable = true;
+        createDirectories = true;
+    };
+  };
 
   # Nicely reload system units when changing configs
   systemd = {

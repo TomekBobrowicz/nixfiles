@@ -45,7 +45,7 @@
           alias rm="rm -i"
           alias mkdir="mkdir -p"
           alias v="nvim"
-          alias update="~/.local/bin/updater"
+          alias update="~/.local/bin/updates"
           alias rebuild="nh os switch --hostname=darkside"
           alias genrm="sudo nix-env -p /nix/var/nix/profiles/system --delete-generations old ; nix-collect-garbage -d ; nh os switch --hostname=green-demon"
           alias flex="fastfetch"

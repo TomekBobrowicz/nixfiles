@@ -28,7 +28,7 @@
             1)
               clear
               echo -e "\n\e[1m\e[34mUpdating the Flake... \e[0m\n"
-              nix flake update /home/jerry/.config/flake
+              nix flake update /home/buber/.config/flake
               echo -e "Flake updated."
               ;;
 
@@ -47,7 +47,7 @@
               echo -e "\n\e[1m\e[31m4/4 (100%) \e[34mUpdating the system... \e[0m\n"
               cd $FLAKE
               git add .
-              nh os switch --hostname=optinix
+              nh os switch --hostname=thinkpad
               cd -
               echo -e "Updates applied."
               ;;
@@ -66,7 +66,7 @@
               echo -e "\n\e[1m\e[31m4/4 (100%) \e[34mUpdating the system... \e[0m\n"
               cd $FLAKE
               git add .
-              nh os boot --hostname=optinix
+              nh os boot --hostname=thinkpad
 
               echo "Updates applied. Press the Enter key to reboot!"
               read
@@ -91,7 +91,7 @@
               echo -e "\n\e[1m\e[31m4/4 (100%) \e[34mUpdating the system... \e[0m\n"
               cd $FLAKE
               git add .
-              nh os boot --hostname=optinix
+              nh os boot --hostname=thinkpad
 
               echo "Updates applied. Press the Enter key to shut down!"
               read

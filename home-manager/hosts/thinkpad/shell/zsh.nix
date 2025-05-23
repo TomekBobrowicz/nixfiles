@@ -44,7 +44,7 @@
           alias mkdir="mkdir -p"
           alias v="nvim"
           alias vim="nvim"
-          alias update="~/.local/bin/updater"
+          alias update="~/.local/bin/updates"
           alias rebuild="nh os switch --hostname=thinkpad"
           alias genrm="sudo nix-env -p /nix/var/nix/profiles/system --delete-generations old ; nix-collect-garbage -d ; nh os switch --hostname=optinix"
           alias flex="fastfetch"
