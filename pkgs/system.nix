@@ -69,6 +69,7 @@
         neovim
         nextcloud-client
         nh
+        nm-applet
         ntfs3g
         pciutils
         pfetch

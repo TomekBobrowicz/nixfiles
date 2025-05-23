@@ -17,8 +17,9 @@
       exec-once = systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
       exec-once = wlsunset -S 9:00 -s 19:30
       exec-once = $POLKIT_BIN
-      exec = swaybg -m fill -i ~/Pictures/wall.jpg
+      exec = swaybg -m fill -i ~/Pictures/wallpaler/space.png
       exec-once = waybar
+      exec-once = nm-applet --indicator
 
       monitor=,preferred,auto,1
 
