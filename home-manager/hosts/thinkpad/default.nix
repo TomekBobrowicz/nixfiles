@@ -28,7 +28,8 @@
             1)
               clear
               echo -e "\n\e[1m\e[34mUpdating the Flake... \e[0m\n"
-              nix flake update /home/buber/.config/flake
+              cd $FLAKE
+              nix flake update 
               echo -e "Flake updated."
               ;;
 
@@ -42,7 +43,8 @@
               distrobox-upgrade -a
 
               echo -e "\n\e[1m\e[31m3/4 (75%) \e[34mUpdating the Flake... \e[0m\n"
-              nix flake update $FLAKE
+              cd $FLAKE
+              nix flake update 
 
               echo -e "\n\e[1m\e[31m4/4 (100%) \e[34mUpdating the system... \e[0m\n"
               cd $FLAKE
