@@ -29,6 +29,8 @@
     # Specify the kernel modules to blacklist
     blacklistedKernelModules = [
     ];
+  # Enable Plymouth
+      plymouth.enable = true; 
   };
 
   # Hostname
