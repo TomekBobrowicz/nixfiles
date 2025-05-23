@@ -90,10 +90,12 @@
     # Hyprland-specific packages
     environment = {
       systemPackages = with pkgs; [
+        adwaita-fonts
         ffmpeg
         ffmpegthumbnailer
         fuzzel
         grimblast
+        hyprpaper
         libsForQt5.qt5.qtgraphicaleffects
         libsForQt5.sddm-kcm
         lxqt.lxqt-policykit
