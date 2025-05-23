@@ -7,7 +7,7 @@
       package = pkgs.starship;
       settings = {
         username = {
-          style_user = "cyan bold";
+          style_user = "green bold";
           style_root = "red bold";
           format = "[$user]($style) ";
           disabled = false;
@@ -15,25 +15,25 @@
         };
         hostname = {
           ssh_only = false;
-          format = "at [$hostname](bold cyan) in ";
+          format = "at [$hostname](bold green) in ";
           trim_at = ".";
           disabled = false;
         };
         character = {
-          success_symbol = "[❯](bold cyan)";
+          success_symbol = "[❯](bold green)";
           error_symbol = "[✗](bold red)";
         };
         directory = {
           read_only = " ";
           truncation_length = 10;
           truncate_to_repo = true;
-          style = "bold italic cyan";
+          style = "bold italic green";
         };
         cmd_duration = {
           min_time = 1;
           format = "took [$duration]($style)";
           disabled = false;
-          style = "bold italic cyan";
+          style = "bold italic green";
         };
         aws = {
           symbol = "  ";
@@ -64,7 +64,7 @@
         };
         git_status = {
           format = "([$all_status$ahead_behind]($style) )";
-          stashed = "[$count*](cyan)";
+          stashed = "[$count*](green)";
           modified = "[$count+](yellow)";
           deleted =  "[$count-](red)";
           conflicted =  "[$count~](red)";

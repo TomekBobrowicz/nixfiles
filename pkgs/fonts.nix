@@ -3,6 +3,7 @@
 {
   fonts = {
     packages = with pkgs; [
+      adwaita-fonts
       dina-font
       fira-code
       fira-code-symbols
