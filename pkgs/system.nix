@@ -68,8 +68,8 @@
         lm_sensors
         neovim
         nextcloud-client
+        networkmanagerapplet
         nh
-        nm-applet
         ntfs3g
         pciutils
         pfetch
