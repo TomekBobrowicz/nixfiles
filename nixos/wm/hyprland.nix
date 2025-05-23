@@ -103,7 +103,7 @@
         pavucontrol
         playerctl
         polkit_gnome
-      # rofi
+        rofi
         swaybg
         swaylock-effects
         swaynotificationcenter

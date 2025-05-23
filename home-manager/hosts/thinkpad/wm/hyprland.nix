@@ -23,7 +23,7 @@
       monitor=,preferred,auto,1
 
       input {
-        kb_layout = de
+        kb_layout = pl
         follow_mouse = 1
         sensitivity = 0
       }
@@ -120,7 +120,7 @@
 
       $screenshotarea = hyprctl keyword animation "fadeOut,0,0,default"; grimblast copy area; hyprctl keyword animation "fadeOut,1,4,default"
 
-      bind = ${modifier}, B, exec, brave
+      bind = ${modifier}, B, exec, google-chrome-stable
       bind = ${modifier}, P, exec, wlogout
       bind = ${modifier}, F1, exec, ~/.config/hypr/keybind
       binde = ,XF86AudioRaiseVolume, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+
