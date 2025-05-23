@@ -46,6 +46,8 @@
           alias vim="nvim"
           alias update="~/.local/bin/updates"
           alias rebuild="nh os switch --hostname=thinkpad"
+          alias fr = "nh os switch  --hostname=thinkpad";
+          alias fu = "nh os switch --hostname=thinkpad --update";
           alias genrm="sudo nix-env -p /nix/var/nix/profiles/system --delete-generations old ; nix-collect-garbage -d ; nh os switch --hostname=optinix"
           alias flex="fastfetch"
           alias ubuntu="distrobox enter ubuntu"
